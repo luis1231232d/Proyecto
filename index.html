@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Luis Miguel Garcia Aranzalez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/sd.jpg" alt="">
+            </div>
+            <h1>Luis Miguel Garcia A</h1>
+            <h2>Ingeniero de Sistemas</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/luis-miguel-garcia-aranzalez-ab1a18210/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/luis1231232d"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- SECCION SOBRE MI -->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mí</h2>
+                <p><span>Hola, soy Luis Miguel Garcia.</span> Soy una persona muy responsable, puntual, autodidacta me apasiona lo que estoy estudiando y cada día me propongo a seguir aumentando mis conocimientos para poder aportarle algo positivo a la sociedad.</p>
+
+                <div class="fila">
+                    <!-- datos personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Telfono</strong> <a class="contacto-info" href="tel:+57 3143907884">+57 3143907884</a>
+                            </li>
+                            <li>
+                                <strong>Email</strong> <a class="contacto-info" href="mailto: lugaranza@gmail.com">lugaranza@gmail.com</a>
+                            </li>
+                            <li>
+                                <strong>Dirección</strong> Ibague/Tolima - Colombia
+                            </li>
+                            <li>
+                                <strong>Cargo</strong> Desarrollador Web
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+
+                    <div class="skill">
+                        <span>PHP</span>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML</span>
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <i class="fa-sharp fa-solid fa-comments"></i>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+
+                    <div class="skill">
+                        <span>Gestión del tiempo</span>
+                        <i class="fa-solid fa-hourglass-start"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>TECNOLOGIA EN GESTION DE BASES DE DATOS</h4>
+                        <span class="casa"> UNIVERSIDAD DEL TOLIMA</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p>La carrera Tecnología en Gestión de Base de Datos es una de las Carreras Cortas de Ingeniería y Tecnología que imparte la Universidad del Tolima. Duración: 5 SEMESTRES. El título de Tecnología en Gestión de Base de Datos es el
+                            título que otorga la Universidad del Tolima para la carrera de Tecnología en Ingeniería.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>Análisis y desarrollo de sistemas de información es una carrera técnica que ofrece el SENA . El aprendiz de este programa ejecutará los procesos de análisis, diseño, implementación, pruebas y ajustes de generación de sistemas de
+                            información para la sistematización o automatización de procesos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>INGENIERIA DE SISTEMAS</h4>
+                        <span class="casa">UNIVERSIDAD DEL TOLIMA</span>
+                        <span class="fecha">2018 - 2023</span>
+                        <p>Formar ingenieros integralmente que puedan enfrentar los retos de su profesión, transformando e innovando sistemas con la aplicación de tecnologías de punta, participando en proyectos que mejoren la productividad en las organizaciones,
+                            generando ambientes adecuados en los cuales los usuarios participen en el desarrollo de las soluciones.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Pasantía - Auxiliar sistemas</h4>
+                        <span class="casa">Universidad de Ibague</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>En mi instancia realizando mi etapa productiva en la Universidad de Ibagué fue muy satisfactoria ya que logre desempeñar algunas funciones como el mantenimiento de 4 salas de sistemas, Portátiles. También ayudar con el Soporte
+                            de las clases en alternancia, que se realizaban mediante la aplicación ManyCam.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>AUXILIAR DE SISTEMAS</h4>
+                        <span class="casa">MEDIGEN IPS</span>
+                        <span class="fecha">Mayo de 2022 - Agosto de 2022</span>
+                        <p>Mantenimiento Equipos de computo y impresoras. - Control plataforma Sihos (Informacion pacientes y doctores) - Realizar el informe de la resolucion 202. - Inventario de los implementos tecnologicos a cargo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO  -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/LogoTiendaLuisMi.png" alt="Tienda Luis Mi">
+                    <div class="overlay">
+                        <a class="portafoliolink" href="https://tiendaluismi.netlify.app/" target="_blank">
+                            <h3>Tienda Luis Mi</h3>
+                            <p>HTML & CSS</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <a class="portafoliolink" href="https://aeces.netlify.app" target="_blank">
+                            <h3>AECES <br> PROYECTO SENA</h3>
+                            <p>HTML & CSS</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <a class="portafoliolink" href="">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <a class="portafoliolink" href="">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+
+    <form action="https://formsubmit.co/lugaranza@gmail.com" method="POST" id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" name="nombre" id="nombre" placeholder="Tú Nombre" required>
+                    <input type="text" name="telefo" id="telefo" placeholder="Número telefónico">
+                    <input type="text" name="correo" id="correo" placeholder="Dirección de correo" required>
+                    <input type="text" name="tema" id="tema" placeholder="Tema">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn btn-primary">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/luis-miguel-garcia-aranzalez-ab1a18210/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
